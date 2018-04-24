@@ -1,17 +1,16 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports DevExpress.LookAndFeel
 
 Namespace WindowsApplication1
-	<Serializable> _
-	Public Class LookAndFeelSettings
-		Public SkinName As String
-		Public Style As LookAndFeelStyle
-		Public UseWindowsXPTheme As Boolean
+    <Serializable> _
+    Public Class LookAndFeelSettings
+        Public SkinName As String
+        Public Style As LookAndFeelStyle
+        Public UseWindowsXPTheme As Boolean
 
-		Public Sub New()
+        Public Sub New()
 
-		End Sub
-	End Class
+        End Sub
+    End Class
 End Namespace
